@@ -1,36 +1,58 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# WikiSearch
+
+Welcome to **WikiSearch**, a simple and intuitive application designed to search Wikipedia articles quickly and efficiently. This project leverages Next.js and the Wikipedia API to fetch and display relevant search results with a user-friendly interface.
+
+## Table of Contents
+
+- [Features](#features)
+- [Technologies Used](#technologies-used)
+- [Getting Started](#getting-started)
+- [Usage](#usage)
+
+## Features
+
+- **Instant Search**: Search for Wikipedia articles in real-time with instant feedback.
+- **Responsive Design**: The application adapts seamlessly to various screen sizes, ensuring a great experience on both mobile and desktop.
+- **Article Previews**: View article titles and excerpts right below the search bar.
+- **User-Friendly Interface**: A clean and straightforward interface that enhances usability.
+- **Dark Mode Support**: Toggle between light and dark themes for comfortable reading in various lighting conditions.
+
+## Technologies Used
+
+- [Next.js](https://nextjs.org/): A React framework for building server-rendered applications.
+- [React](https://reactjs.org/): A JavaScript library for building user interfaces.
+- [Tailwind CSS](https://tailwindcss.com/): A utility-first CSS framework for styling the application.
+- [Wikipedia API](https://www.mediawiki.org/wiki/API:Main_page): The API used to fetch article data from Wikipedia.
+- [TypeScript](https://www.typescriptlang.org/): For type safety and improved development experience.
 
 ## Getting Started
 
-First, run the development server:
+To get a local copy up and running, follow these steps:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+1. **Clone the Repository**:
+   ```bash
+   git clone https://github.com/RVJVIJAY/wikipedia-pro-nextjs.git
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. **Navigate to the Project Directory :**
+    cd wikipedia-pro-nextjs
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. **Install Required Dependencies:**
+    npm install
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. **start the Development Server:**
+    npm run dev
 
-## Learn More
+5. **Access the Application:**
+    Open your web browser and visit http://localhost:3000 to see the application in action.
 
-To learn more about Next.js, take a look at the following resources:
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+Usage
+1.Search for Articles: Type a keyword or phrase into the search input field.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+2.Execute Search: Click the "Search" button or press Enter to submit your query.
 
-## Deploy on Vercel
+3.View Results: The search results will appear below the input, displaying article titles, excerpts, and thumbnail images (if available).
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Example Searches :
+Try searching for terms like "JavaScript", "React", or "Next.js" to see how the application returns relevant Wikipedia entries.
