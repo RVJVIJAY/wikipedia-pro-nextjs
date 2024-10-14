@@ -34,15 +34,19 @@ To get a local copy up and running, follow these steps:
    git clone https://github.com/RVJVIJAY/wikipedia-pro-nextjs.git
 
 2. **Navigate to the Project Directory :**
-    cd wikipedia-pro-nextjs
+   ```bash
+   cd wikipedia-pro-nextjs
 
 3. **Install Required Dependencies:**
+    ```bash
     npm install
 
 4. **start the Development Server:**
+   ```bash
     npm run dev
 
 5. **Access the Application:**
+    ```bash
     Open your web browser and visit http://localhost:3000 to see the application in action.
 
 
